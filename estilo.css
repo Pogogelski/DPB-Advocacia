@@ -1,0 +1,283 @@
+a {
+    font-size: 110%;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(175, 175, 175);
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    margin-top: 50px;
+    border-radius: 40px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    border: solid black 2px;
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 100px;
+    vertical-align: top;
+    box-shadow: 5px 10px 5px;
+}
+
+.card02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.job {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.bio {
+    line-height: 1.5;
+}
+
+
+
+@keyframes fade-in {
+    from {
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    to {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+
+* {
+    opacity: 0; 
+    animation: fade-in 1s ease-in-out forwards;
+}
+
+#navul {
+    display: flex;
+}
+
+.navli {
+    padding: 15px;
+    margin-top: 7px;
+    transition: 1s;
+}
+
+.navli:hover {
+    color: white;
+    font-size: 20px;
+}
+
+.navbarmenu{
+display: flex;
+align-items: center;
+}
+
+#imgul {
+    display: flex;
+    padding: 10px;
+    margin-left: 900px;
+}
+
+.imgli {
+    width: 52px;
+    padding: 9px;
+}
+
+.voltar{
+    text-align: center;
+}
+
+.navpesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+#sobre {
+    display: inline;
+    margin-right: 55px;
+    margin-top: 10px;
+    transition: 1s;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#sobre:hover {
+    font-size: 18px;
+    color: rgb(190, 0, 0);
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+}
+
+nav {
+    height: 100 px;
+}
+
+@media screen and (max-width: 760px) {
+    #navul {
+        display: flex;
+        height: 300px;
+    }
+
+    .navli {
+        flex-direction: column;
+    }
+
+    .card02 {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card {
+        margin-left: 10px;
+    }
+    .voltar {
+        text-align: center;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+    .footer {
+        width: 420px;
+    }
+    .textfooter {
+        flex-direction: column;
+        text-align: center;
+    }
+    .voltar {
+        text-align: left;
+    }
+    #menu {
+        height: 100px;
+    }
+    #sobre {
+        text-align: left;
+    }
+    #imgul {
+        flex-direction: column;
+    }
+    
+    .imgli {
+        width: 12px;
+        padding: 9px;
+    }
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8d8d8d;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.contact-form textarea {
+    height: 150px;
+}
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: brightness(0.55) opacity(0.85);
+}
+
+ 
