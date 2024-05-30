@@ -29,10 +29,10 @@ footer {
     color: white;
 }
 
-.balao{
-    padding: 20px; 
+.balao {
+    padding: 20px;
     background-color: #cacaca95;
-    color: #333; 
+    color: #333;
     padding: 20px;
     width: 90%;
     margin: 0 auto;
@@ -309,66 +309,22 @@ body {
 }
 
 @media screen and (max-width: 760px) {
-    #navul {
+
+    .row {
         display: flex;
-        height: 300px;
+        flex-direction: column;
+        width: 100%;
     }
 
-    .navli {
-        flex-direction: column;
+    .column {
+        max-width: 100%;
+        width: 400px;
     }
 
     .card02 {
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .card {
-        margin-left: 10px;
-        align-items: center;
-    }
-
-    .voltar {
-        text-align: center;
-    }
-
-    ul {
         display: flex;
         flex-direction: column;
-        height: 100px;
-    }
-
-    .footer {
-        width: 420px;
-    }
-
-    .textfooter {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .voltar {
-        text-align: left;
-    }
-
-    #menu {
-        height: 100px;
-        display: flex;
-    }
-
-    #sobre {
-        text-align: left;
-    }
-
-    #imgul {
-        flex-direction: column;
-    }
-
-    .imgli {
-        width: 12px;
-        padding: 9px;
+        width: 100%;
     }
 
     .navpesquisa {
@@ -377,14 +333,11 @@ body {
         margin-top: 20px;
     }
 
-    .row {
-        flex-direction: column;
-    }
-
-    .column {
-        margin-bottom: 20px;
+    #navul {
         display: flex;
-        
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
     }
 
 
