@@ -62,10 +62,11 @@ footer {
 
 
 .profile-pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 400px;
+    height: 250px;
+    border-radius: 5%;
     margin-bottom: 10px;
+    filter: brightness(0.65) opacity(0.95);
 }
 
 .name {
