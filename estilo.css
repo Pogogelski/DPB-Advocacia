@@ -341,8 +341,11 @@ body {
         align-items: center;
     }
 
-    iframe{
+    iframe {
         width: 85%;
     }
-}
 
+    .img {
+        width: 70px;
+    }
+}
