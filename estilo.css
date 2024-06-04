@@ -5,6 +5,10 @@ a {
 
 body {
     background-color: rgb(175, 175, 175);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
 
 .mapa {
@@ -61,7 +65,7 @@ footer {
 }
 
 
-.profile-pic {
+.Perfil {
     width: 400px;
     height: 250px;
     border-radius: 5%;
@@ -164,13 +168,6 @@ nav {
 }
 
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #8d8d8d;
-}
-
 .container {
     max-width: 600px;
     margin: 50px auto;
@@ -236,10 +233,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-body {
-    background-color: #8d8d8d;
-    color: #333;
-}
 
 .container {
     width: 80%;
