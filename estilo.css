@@ -48,11 +48,9 @@ footer {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
-    margin: 20px;
     border: solid black 2px;
     display: inline-block;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin: auto;
     vertical-align: top;
     box-shadow: 5px 10px 5px;
 }
@@ -256,6 +254,7 @@ nav {
 
 .row {
     display: flex;
+    
     justify-content: space-between;
     flex-wrap: wrap;
 }
